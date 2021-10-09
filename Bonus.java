@@ -7,7 +7,7 @@ public class Bonus {
         float income = 1600.56F;
 
         // Бонусы зачисляются при пополнении свыше 100 рублей
-        int bonus = (income > 1000) ? ((int)income / 100) : 0;
+        int bonus = (income > 1000) ? ((int) income / 100) : 0;
 
         // Итоговый баланс после пополнения
         balance += income + bonus;
